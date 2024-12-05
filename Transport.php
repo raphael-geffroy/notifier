@@ -66,6 +66,8 @@ final class Transport
         Bridge\MessageMedia\MessageMediaTransportFactory::class,
         Bridge\MicrosoftTeams\MicrosoftTeamsTransportFactory::class,
         Bridge\Mobyt\MobytTransportFactory::class,
+        Bridge\MySendingBox\MySendingBoxTransportFactory::class,
+        Bridge\SimonTheMailman\SimonTheMailmanTransportFactory::class,
         Bridge\Novu\NovuTransportFactory::class,
         Bridge\Ntfy\NtfyTransportFactory::class,
         Bridge\Octopush\OctopushTransportFactory::class,
